@@ -1,12 +1,9 @@
 Changes
 MANIFEST
+META.yml # Will be created by "make dist"
 Makefile.PL
-Munger.pm
 README
-t/files/html/file1.html
-t/files/html/file2.htm
-t/files/latex/file1.tex
-t/files/xml/file1.xml
-t/include.t
-t/latex.t
-t/misc.t
+lib/File/Munger.pm
+t/00.load.t
+t/pod-coverage.t
+t/pod.t
